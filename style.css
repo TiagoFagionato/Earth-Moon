@@ -1,9 +1,9 @@
 body {
-	background: black;
+	background-image:url("img/space.png");
 }
 
 #canvas {
-	background: white;
+	background-image:url("img/space.png");
 	position: absolute;
 	left: 50%;
 	top: 50%;
