@@ -31,6 +31,17 @@ function main() {
 		ctx.lineWidth = 0;
 		ctx.fillStyle = "#121212";
 		ctx.fill();
+		//Moon
+		ctx.beginPath();
+		ctx.arc(240, 100, 20, -(Math.PI / 180) * (90), (Math.PI / 180) * (90), false)
+		ctx.lineWidth = 0;
+		ctx.fillStyle = "#4D4D4D";
+		ctx.fill();
+		ctx.beginPath();
+		ctx.arc(240, 100, 20, (Math.PI / 180) * (90), -(Math.PI / 180) * (90), false)
+		ctx.lineWidth = 0;
+		ctx.fillStyle = "#121212";
+		ctx.fill();
 	}
 
 	function loop() {
